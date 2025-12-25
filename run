@@ -1,0 +1,9 @@
+run:
+Nama Penumpang : audri
+Jarak Tempuh (km): 30
+Jenis Penumpang (1=Reguler, 2=VIP): 2
+Nama Penumpang : audri
+Jarak Tempuh   : 30 km
+Jenis Penumpang: VIP
+Harga Tiket    : Rp 45000.0
+BUILD SUCCESSFUL (total time: 11 seconds)
