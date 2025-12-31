@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+X-COMMENT: Main-Class will be added automatically by build
+run:
+=== SISTEM SEWA RUANG PERTEMUAN ===
+1. Ruang Rapat Kecil
+2. Ruang Rapat Besar
+3. Ruang Aula
+Pilih jenis ruang: 1
+Nama Ruang: ruang rapat kecil
+Durasi Sewa (jam): 1
+Jumlah Kursi: 1
+
+=== DETAIL PESANAN ===
+Nama Ruang   : ruang rapat kecil
+Durasi Sewa : 1 jam
+Tarif/Jam   : Rp 100000.0
+Jumlah Kursi: 1
+Total Biaya  : Rp 100000.0
+BUILD SUCCESSFUL (total time: 59 seconds)
+
+

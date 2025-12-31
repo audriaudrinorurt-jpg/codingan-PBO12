@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+
+/**
+ *
+ * @author LENOVO
+ */
+   public abstract class RuangPertemuan {
+    protected String namaRuang;
+    protected int durasiSewa;
+    protected double tarifPerJam;
+
+    public RuangPertemuan(String namaRuang, int durasiSewa, double tarifPerJam) {
+        this.namaRuang = namaRuang;
+        this.durasiSewa = durasiSewa; 
+        this.tarifPerJam = tarifPerJam;
+    }
+
+    public abstract double hitungBiaya();
+
+    public void tampilkanInfo() {
+        System.out.println("Nama Ruang   : " + namaRuang);
+        System.out.println("Durasi Sewa : " + durasiSewa + " jam");
+        System.out.println("Tarif/Jam   : Rp " + tarifPerJam);
+    }
+} 
+ 
